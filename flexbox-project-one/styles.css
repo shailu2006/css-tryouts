@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #a1c3ff;
+}
+
+/* Navigation bar styling start */
+nav {
+  display: flex;
+  background-color: #3474e6;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-items {
+  size: 400px;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.menu-items > a {
+  text-decoration: none;
+  color: white;
+}
+/* Navigation bar styling end */
+
+/* Hero panel styling start */
+.hero-wrapper {
+  background-color: #0151cc;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.hero-container {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container img {
+  max-width: 400px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Hero panel styling end */
+
+/* Card element style start */
+.cards {
+  color: white;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #0151cc;
+  border-radius: 20px;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-heading {
+  padding: 20px;
+}
+
+.card-description {
+  padding-left: 20px;
+}
+/* Card element style end */
